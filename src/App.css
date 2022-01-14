@@ -1,5 +1,12 @@
+
 .App {
   text-align: center;
+}
+
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -35,4 +42,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.the{
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+   transform: rotate(270deg);
+   margin-top: -49px;
+   margin-right: 174px;
+}
+
+/* css for article */
+.artMain{
+  width: 400px;
+  height: 600px;
+  margin-left: 30%;
+}
+
+.paraArticle{
+  margin-top: 50px;
 }

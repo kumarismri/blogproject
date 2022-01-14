@@ -1,0 +1,112 @@
+/* css for latest component in home page */
+.LatestMainHome{
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LatestHeadingHome{
+    color: black;
+
+}
+
+.LatestImageHome{
+    border-radius: 22px;
+}
+
+.LatestPara{
+    color: grey;
+
+}
+
+.LatestBox{
+    width: 330px;
+    height: 350px;
+}
+
+.LatestFirstHeading{
+    border-bottom: 5px solid red;
+    margin-right: 1018px;
+    margin-left: 116px;
+    margin-bottom: 50px;
+
+}
+.p{
+    color: grey;
+    font-size: 14px;
+}
+
+/* css for latestArt component in home page */
+.ArticleFirstHeading{
+    border-bottom: 4px solid red;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 981px;
+}
+
+.ArticleMain{
+    margin-left: 100px;
+}
+
+.ArticleBox{
+    width: 680px;
+    height: 200px;
+}
+.ArticleImageHome{
+    width: 300px;
+    height: 150px;
+}
+
+.ArticleHeadingHome{
+    color: black;
+
+}
+
+.ArticlePara{
+    color: grey;
+
+}
+
+.main3{
+    margin-left: 350px;
+    margin-top: -170px;
+   
+}
+.arrow{
+    margin-left: 100px;
+    border: 1px solid white;
+    background-color: white;
+    color: darkgrey;
+}
+
+/* css for latest stories */
+.StoryMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 260px;
+    flex-direction: row;
+}
+
+.StoryHeading{
+    margin-top: 269px;
+    margin-right: 978px;
+    border-bottom: 4px solid red;
+}
+.StoryParent{
+    margin-left: 100px;
+}
+/* css for top post */
+.mainHome{    
+    position: absolute;
+    top: 1273px;
+    left: 1005px;
+}
+.topHome{
+    position: absolute;
+    left: 995px;
+    top: 1185px;
+    border-bottom: 4px solid red;
+}

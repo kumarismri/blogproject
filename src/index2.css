@@ -1,0 +1,139 @@
+.img1{
+    margin-left: 115px;
+    border-radius: 7px;
+}
+
+.img2{
+    position: relative;
+    top: -106px;
+    margin-left: 29px;
+    border-radius: 6px;
+}
+
+.img3{
+    position: relative;
+    left: 400px;
+    margin-top: -230px;
+    border-radius: 5px;
+}
+
+/* css for bollywood page */
+
+.main1{
+    width: 400px;
+    height: 900px;
+    text-decoration: none;
+}
+
+.main2{
+    width: 400px;
+    height: 400px;
+    margin-left: 900px;
+    margin-top: -900px;
+}
+
+.imgg{
+   height: 150px;
+   width: 200px;
+}
+
+.imgg2{
+    height: 182px;
+    width: 266px;
+}
+
+.imgg3{
+    height: 100px;
+    width: 150px;
+}
+.linkbolly{
+    text-decoration: none;
+}
+.heading1{
+    position: relative;
+    left: 207px;
+    top: -147px;
+    color: black;
+
+
+}
+
+.para1{
+    position: relative;
+    left: 205px;
+    top: -145px;
+    color: grey;
+    font-size: small;
+}
+
+.aut1{
+    margin-left: 204px;
+    margin-top: -162px;
+    color: grey;
+    font-size: 14px;
+    }
+
+.top{
+    position: relative;
+    top: -982px;
+    left: 884px;
+    border-bottom: 5px solid red;
+    width: 160px;
+}
+
+.head1{
+    border-bottom: 5px solid red;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    margin-right: 1216px;
+}
+
+.hr1{
+    height: 24px;
+    width: 605px;
+}
+
+
+.hr2{
+    height: 24px;
+    width: 400px;
+}
+
+.bolld{
+    margin-top: -108px;
+    margin-left: 304px;
+    font-size: 76px;
+    color: #d8d6d6;
+}
+
+.inner2{
+    width: 400px;
+    height: 155px;
+}
+
+.heading3{
+    margin-left: 182px;
+    margin-top: -104px;
+}
+
+.bolld2{
+    top: -60px;
+    left: 360px;
+    font-size: 72px;
+    color: #d8d6d6;
+    position: relative;
+}
+.last{
+    margin-top: 50px;
+    height: 444px;
+    padding: 183px 28px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.aut2{
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    left: 1185px;
+}
