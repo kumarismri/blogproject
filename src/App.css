@@ -44,6 +44,10 @@ body{
   }
 }
 
+/* css for component one */
+.navIcon{
+  display: none;
+}
 .the{
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
@@ -59,8 +63,23 @@ body{
   width: 400px;
   height: 600px;
   margin-left: 30%;
+  margin-bottom: 450px;
 }
 
 .paraArticle{
   margin-top: 50px;
+}
+
+.iconss{
+  color: grey;
+}
+
+.handclap{
+  color: grey;
+  margin-right: 320px;
+}
+
+.iconss2{
+  text-align: center;
+  color: grey;
 }

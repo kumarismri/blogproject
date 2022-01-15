@@ -27,9 +27,9 @@
 
 .LatestFirstHeading{
     border-bottom: 5px solid red;
-    margin-right: 1018px;
+    margin-right: 955px;
     margin-left: 116px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 
 }
 .p{
@@ -97,16 +97,42 @@
 }
 .StoryParent{
     margin-left: 100px;
+    margin-top: -135px;
 }
 /* css for top post */
 .mainHome{    
     position: absolute;
-    top: 1273px;
+    top: 1298px;
     left: 1005px;
 }
 .topHome{
     position: absolute;
     left: 995px;
-    top: 1185px;
+    top: 1223px;
     border-bottom: 4px solid red;
+}
+
+/* css for first part of home page */
+.MainContainer{
+      height: 496px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 949px;
+    margin-top: -459px;
+}
+
+.upperCatarogy{
+    position: relative;
+    top: -139px;
+    left: 120px;
+    color: white;
+}
+
+.sports{
+    position: absolute;
+    top: 148px;
+    left: 234px;
+    font-size: 35px;
+    color: white;
 }

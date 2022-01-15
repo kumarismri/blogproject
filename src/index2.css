@@ -1,6 +1,7 @@
 .img1{
     margin-left: 115px;
     border-radius: 7px;
+    height: 460px;
 }
 
 .img2{
@@ -136,4 +137,23 @@
     font-size: 15px;
     position: absolute;
     left: 1185px;
+}
+
+/* responsive for all the catagories pages */
+
+@media screen and (max-device-width :740px) {
+    .top{
+        top: 716px;
+        left: 0px;
+    }
+
+    .main2{
+        margin-top: 809px;
+        margin-left: 0px;
+    }
+
+    .aut2{
+        left: 300px;
+    }
+    
 }

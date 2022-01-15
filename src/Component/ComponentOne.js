@@ -3,6 +3,7 @@ import '../App.css'
 import { Contextfr } from './Contextfr'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
+import { FaAlignJustify } from "react-icons/fa";
 
 const ComponentOne = () => {
     const [value]=useContext(Contextfr)
@@ -12,6 +13,9 @@ const ComponentOne = () => {
         <div>
             <h1>Siren</h1>
             <h5 className='the'>The</h5>
+            <div className='navIcon'>
+            <FaAlignJustify/>
+            </div>
             <h5>{value.id}</h5>
             <nav className="nav nav-pills nav-justified p-3 mb-2 bg-light text-dark">
                 <Link to="/home" className="nav-item text-dark">Home</Link>
