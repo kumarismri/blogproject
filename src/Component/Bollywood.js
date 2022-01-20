@@ -39,20 +39,24 @@ const Bollywood = () => {
             <div className='main2'>
                 {rows.filter((val) => val.id === "0" && val.catagory === b).map((row) => (
                     <div className='inner1'>
+                        <Link className='linkbolly' to={`/bolly/article/:${row.id}/${row.catagory}`} style={{ textDecoration: "none" }}>
                         <img className='imgg2' src={row.imgUrl} alt='' />
                         <h5 className='heading2'>{row.title}</h5>
                         <p className='aut2'><strong>{row.catagory}</strong>/jan 06 2022</p>
                         <p className='bolld'>{parseInt(row.id+1)}</p>
+                        </Link>
                     </div>
                 ))}
                 {rows.filter((val) => val.id <= "3" && val.catagory === b && val.id >= "1").map((row) => (
                     <div className='inner2'>
+                        <Link className='linkbolly' to={`/bolly/article/:${row.id}/${row.catagory}`} style={{ textDecoration: "none" }}>
+
                         <hr className='hr2' />
                         <img className='imgg3' src={row.imgUrl} alt='' />
                         <h5 className='heading3'>{row.title}</h5>
                         <p className='aut2'><strong>{row.catagory}</strong>/jan 06 2022</p>
                         <p className='bolld2'>{parseInt(row.id)+1}</p>
-        
+                </Link>
                     </div>
 
                 ))}

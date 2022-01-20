@@ -1,7 +1,4 @@
 import React from 'react'
-// import img from '../image/photo-1610878180933-123728745d22.jfif'
-// import img2 from '../image/imagestiger.jfif'
-// import img3 from '../image/images-westernghat.jfif'
 import '../index2.css'
 import Latest from './Latest'
 import LatestArt from './LatestArt'
